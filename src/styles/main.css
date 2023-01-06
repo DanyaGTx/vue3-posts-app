@@ -1,0 +1,79 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./accordion.css);
+@import url(./pagination.css);
+@import url(./postId.css);
+@import url(./photos.css);
+@import url(./users.css);
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Header */
+.header {
+  margin-top: 30px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  padding: 30px 40px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.header__nav-links {
+  display: flex;
+}
+.header__link-item {
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 20px;
+}
+.header__link {
+  color: #000000;
+}
+
+.router-link-active {
+  color: #50208c;
+}
+/* MAIN */
+
+.main__wrapper {
+  margin-top: 30px;
+}
+
+.main {
+  background: #d9d9d9;
+  border-radius: 6px;
+  padding: 65px;
+  font-size: 26px;
+}
+
+
+
+.active {
+  background-color: red;
+}
+
+/* Total */
+.total__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.total__input {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.total__input:focus {
+  outline: none;
+}
+
+.total__button {
+  width: 100px;
+  background: orange;
+  font-size: 20px;
+}
+

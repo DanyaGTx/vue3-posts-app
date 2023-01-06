@@ -1,0 +1,81 @@
+.user__info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+    
+.user__name {
+    font-weight: 700;
+}
+
+.user__openProile-btn {
+    background: rgba(215, 171, 171, 0.55);
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.user__openProile-btn:hover{
+    background: rgb(255, 182, 48);
+}
+
+.todo__item {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.todo__btn {
+    background: rgba(132, 18, 18, 0.55);
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.todo__delete-btn {
+    margin-right: 20px;
+}
+
+
+.todo__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo__info {
+    max-width: 700px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.todo__title {
+    margin-bottom: 20px;
+}
+
+.todo__noTodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__user-data-info {
+    margin-bottom: 10px;
+}
+
+.todo__user-data-table {
+    border: 1px solid grey;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.todo__user-data-title {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+
+.pagination__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .pagination__buttons {
+    font-size: 30px;
+    user-select: none;
+    background: none;
+  }
+  
+  .pagination__buttonLeft {
+    margin-right: 10px;
+  }
+  
+  .pagination__buttonRight {
+    margin-left: 10px;
+  }
+  
+  .pagination__page--active {
+    text-align: center;
+    border: 1px solid #a16cf6;
+    border-radius: 8px;
+    color: white;
+    background: #a16cf6;
+    margin-left: 10px;
+  }
+  .pagination__page--notActive {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 10px;
+  }

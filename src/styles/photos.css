@@ -1,0 +1,36 @@
+.photo__item-button {
+    background: rgba(215, 171, 171, 0.55);
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.photo__item {
+    padding: 20px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.photo__item-title {
+    margin-bottom: 20px;
+}
+
+.loaded-photos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slides {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-pagination .swiper-pagination-bullets .swiper-pagination-horizontal .swiper-pagination-bullets-dynamic {
+    margin-top: 50px;
+}

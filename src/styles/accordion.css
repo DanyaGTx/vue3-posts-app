@@ -1,0 +1,238 @@
+.accordion__wrapper {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .accordion-title {
+    display: flex;
+    align-items: center;
+    background: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 32px;
+    transition: all;
+    transition-duration: 500;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px -6px #777;
+  }
+  
+  .accordion-question {
+    max-width: 700px;
+  }
+  
+  .accordion-id {
+    margin-right: 30px;
+    background: #d9d9d9;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  
+  .accordion-delete {
+    user-select: none;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .accordion-comment__content {
+    position: relative;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .accordion-comment__delete {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .accordion-comment__add {
+    text-align: center;
+  }
+  
+  .accordion-comment__add-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .accordion-comment__add-input {
+    max-width: 400px;
+  }
+  
+  .accordion-comment__add-input-el {
+    margin-bottom: 20px;
+  }
+  
+  .accordion-possesions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .accordion-arrows--border {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 13px 13px;
+    border-radius: 15px;
+  }
+  .accordion-arrows {
+    width: 20px;
+    fill: #000000;
+  }
+  
+  .accordion-arrow-close {
+    transform: rotate(180deg);
+  }
+  
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3px;
+    overflow: auto;
+    opacity: 1;
+    transition: .5s;
+    transition-property: max-height,padding-top,padding-bottom,opacity;
+    background: white;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    box-shadow: 0 10px 10px -6px #777; 
+  }
+  .accordion--close {
+    max-height: 0px; 
+    overflow: hidden;
+    opacity: 0;
+    padding-bottom: 0;
+  }
+  
+
+  .accordion-inner__wrapper {
+    padding-left: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion__comments-button { 
+    align-self: flex-end;
+    justify-self: flex-end;
+    background: rgba(215, 171, 171, 0.55);
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  
+  
+  .accordion-comment-user {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    background: #CECECE;
+    border: 1px solid #9F9F9F;
+    border-radius: 16px;
+    padding: 8px 12px;
+  }
+  
+  .accordion-comment-user-ico {
+    margin-right: 10px;
+  }
+  
+  .accordion-comment-title {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+  
+  .accordion-comment-content {
+    max-width: 950px;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+  }
+  
+  .accordion__comments {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  
+  .accordion-comment-loaded {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .accordion-comment__yourPosts {
+    margin-top: 20px;
+  }
+  
+  .accordion-comment-content {
+    margin-top: 15px;
+  }
+  
+  .accordion-comment-loadMore-btn {
+    text-align: center;
+  }
+  
+  .accordion-comment {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  
+  .accordion__comments-wrapper, .accordion-comment {
+    /* max-height: 1000px; */
+    opacity: 1;
+    transition: .5s;
+    transition-property: max-height,padding-top,padding-bottom,opacity;
+    padding-bottom: 30px;
+  }
+  .accordion-comment--hidden{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding-bottom: 0;
+  }
+
+  .accordion-comment__add-input {
+    width: 100%;
+    border: 1px solid rgb(93, 93, 93);
+    padding: 10px;
+    font-size: 16px;
+
+  }
+  .accordion-comment__add-input:focus {
+    outline: none;
+  }
+
+  .accordion__comments-button--openPost {
+    background: rgb(107, 107, 107);
+    color: whitesmoke;
+    transition: .3s;
+  }
+
+  .accordion__comments-button--openPost:hover {
+    background-color: #444;
+  }   
